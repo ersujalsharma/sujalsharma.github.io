@@ -1,0 +1,56 @@
+body{
+    background-image: url(../Images/federico-vitale-7QvJbALhefo-unsplash\ \(1\).jpg);
+    background-size: cover;
+}
+.container{
+    /* border: 2px solid yellow; */
+}
+#logo{
+    display: inline-block;
+    position: absolute;
+    width: auto;
+    top: 0px;
+    font-size: 120%;
+    left: 35px;
+    /* border: 2px solid black; */
+}
+#logo img{
+    border-radius: 100%;
+    width: 62px;
+    height: 63px;
+
+}
+#logo h2{
+    color: rgb(0, 26, 255);
+}
+
+#navbar{
+    /* border: 2px solid green; */
+    display: block;
+    width: 55%;
+    margin: 30px auto;
+    font-size: 150%;
+
+}
+#socialjump{
+    position: absolute;
+    top: 25px;
+    right: 60px;
+    display: inline-block;
+
+    /* border: 2px solid red; */
+}
+#navbar li{
+    display:inline;
+    color: greenyellow;
+    text-decoration: none;
+    padding: 15px;
+}
+a{
+    text-decoration: none;   
+}
+
+#socialjump img{
+    width: 35px;
+    height: 30px;
+}
